@@ -101,103 +101,142 @@
         }
     },
     "gyotheman": {
-        "name": "スパニッシュイタリアン酒場 SOL ソル",
-        "short_name": "SOL ソル",
-        "key": "sol",
-        "description": "シェフこだわりの本格的スパニッシュイタリアン料理をお弁当で！",
+        "name": "大衆酒場GYOtheMAN",
+        "short_name": "GYOtheMAN",
+        "key": "gyotheman",
+        "description": "",
         "zipcode": "430-0944",
         "prefecture": "静岡県",
         "city": "浜松市中区",
-        "address": "田町323番1",
-        "other_address": "大石ビル1階",
-        "tel": "050-3461-4717",
-        "email": "sol.hamamatsu123@gmail.com",
+        "address": "田町331-3",
+        "other_address": "サンステップビル1階",
+        "tel": "053-488-8100",
+        "email": "gyotheman2018@gmail.com",
         "reception_hours": "16時〜22時",
         "delivery_hours": "17時〜23時",
-        "close": "火曜日",
+        "close": "無し",
         "payments":"現金、クレジットカード",
-        "url": "https://spanishitaliansakabasol.owst.jp/",
-        "map": "pb=!1m18!1m12!1m3!1d3279.9105355163965!2d137.7278373152658!3d34.70743639036499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b4c343383%3A0xfe7a41e992dbf0bf!2z44K544OR44OL44OD44K344Ol44Kk44K_44Oq44Ki44Oz6YWS5aC0IFNPTO-8iOOCveODq--8iQ!5e0!3m2!1sja!2sjp!4v1586322803985!5m2!1sja!2sjp",
+        "url": "https://gyotheman.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.9299243841133!2d137.73002261524434!3d34.70694738043288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adf796325f0b7%3A0xaaac0fb813865523!2z5aSn6KGG6YWS5aC0IEdZTyB0aGUgTUFO!5e0!3m2!1sja!2sjp!4v1586335475558!5m2!1sja!2sjp",
+        "notices": {
+            "notice1": "揚げる餃子以外は、熱したフライパンに油を軽く引いて、餃子を並べて水を300cc入れて蓋をして3分半くらい蒸し焼きにして、水が引いたらごま油を掛けて表面に焦げ目を付けて、1分蒸し焼きにして完成です"
+        },
         "items": {
-            "roastbeefbowl": {
-                "name": "自家製ローストビーフ丼",
-                "price": 1200,
-                "description": "牛サーロインを使った贅沢な一品！",
-                "image_path": "roastbeefbowl.jpg"
+            "friedwholechecken": {
+                "name": "豪快‼️若鶏の姿揚げ880円",
+                "price": 880,
+                "description": "",
+                "image_path": "friedwholechecken.jpg"
             },
-            "friedcheckenbowl": {
-                "name": "洋風からあげ丼",
-                "price": 900,
-                "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
-                "image_path": "friedcheckenbowl.jpg"
+            "mensgyoza": {
+                "name": "男餃子5個",
+                "price": 300,
+                "description": "",
+                "image_path": "mensgyoza.jpg"
             },
-            "omurice": {
-                "name": "デミグラスソースのオムライス",
-                "price": 900,
-                "description": "普段お店で食べられない裏メニュー！",
-                "image_path": "omurice.jpg"
+            "hamamatsugyoza": {
+                "name": "浜松餃子10個",
+                "price": 700,
+                "description": "",
+                "image_path": "hamamatsugyoza.jpg"
+            },
+            "helloprawngyoza": {
+                "name": "エビさんこんにちわ餃子4個",
+                "price": 400,
+                "description": "",
+                "image_path": "helloprawngyoza.jpg"
+            },
+            "sexycalamarigyoza": {
+                "name": "ヤリイカのセクシー餃子4個",
+                "price": 500,
+                "description": "",
+                "image_path": "sexycalamarigyoza.jpg"
+            },
+            "greenoniongyoza": {
+                "name": "ネギ丸餃子4個",
+                "price": 400,
+                "description": "",
+                "image_path": "greenoniongyoza.jpg"
+            },
+            "russianroulettegyoza": {
+                "name": "ロシアンルーレット餃子8個",
+                "price": 600,
+                "description": "",
+                "image_path": "russianroulettegyoza.jpg"
+            },
+            "zakuzaku": {
+                "name": "ザクザク4個",
+                "price": 500,
+                "description": "",
+                "image_path": "zakuzaku.jpg"
+            },
+            "wasabigyoza": {
+                "name": "ぶっかけわさび餃子4個",
+                "price": 400,
+                "description": "",
+                "image_path": "wasabigyoza.jpg"
             }
         },
         "side_items": {
-            "bigrice": {
-                "name": "ご飯大盛り",
-                "price": 100,
+            "ladysgyoza": {
+                "name": "女餃子5個",
+                "price": 300,
                 "description": ""
             },
-            "potatosalad": {
-                "name": "ポテトサラダ",
-                "price": 200,
+            "shrimpcorianderboiledgyoza": {
+                "name": "エビの水餃子パクチーまみれ",
+                "price": 400,
                 "description": ""
             },
-            "pickles": {
-                "name": "ピクルス",
-                "price": 200,
-                "description": ""
-            },
-            "tomatomarine": {
-                "name": "トマトマリネ",
-                "price": 200,
-                "description": ""
-            },
-            "greensalad": {
-                "name": "グリーンサラダ",
-                "price": 200,
-                "description": ""
-            },
-            "takograpefruitsmarine": {
-                "name": "タコとグレープフルーツのマリネ",
+            "dragongyoza": {
+                "name": "旨辛ドラゴン餃子4個",
                 "price": 500,
                 "description": ""
             },
-            "shrimpbroccolibazilmarine": {
-                "name": "海老とブロッコリーのバジルマリネ",
+            "lemonsoltgyoza": {
+                "name": "超さっぱり塩レモン餃子",
+                "price": 400,
+                "description": ""
+            },
+            "checkenwinggyoza": {
+                "name": "手羽揚げ餃子4個",
                 "price": 500,
                 "description": ""
             },
-            "margherita": {
-                "name": "マルゲリータ",
-                "price": 950,
-                "description": "トマト、モッツァレラ、バジルのピザ"
+            "frozenmensgyoza": {
+                "name": "冷凍男餃子5個",
+                "price": 300,
+                "description": ""
             },
-            "quatroformaggio": {
-                "name": "クワトロフォルマッジョ",
-                "price": 1050,
-                "description": "4種類のチーズを使ったピザ"
+            "frozenladysgyoza": {
+                "name": "冷凍女餃子5個",
+                "price": 300,
+                "description": ""
             },
-            "meatsource": {
-                "name": "自家製ミートソース",
-                "price": 950,
-                "description": "温玉のせビスマルク風ピザ"
+            "frozenhamamatsugyoza": {
+                "name": "冷凍浜松餃子14個",
+                "price": 540,
+                "description": ""
             },
-            "salmonpotatogenovese": {
-                "name": "サーモンとじゃがいものジェノベーゼ",
-                "price": 1050,
-                "description": "自家製バジルソースピザ"
+            "frozenhelloprawngyoza": {
+                "name": "冷凍エビさんこんにちわ餃子5個",
+                "price": 400,
+                "description": ""
             },
-            "cicinielli": {
-                "name": "チチニエリ",
-                "price": 1050,
-                "description": "しらすのピザ"
+            "frozencheckenwinggyoza": {
+                "name": "冷凍手羽揚げ餃子5個",
+                "price": 500,
+                "description": "揚げ時間9分"
+            },
+            "frozenzakuzaku": {
+                "name": "冷凍ザクザク5個",
+                "price": 400,
+                "description": "揚げ時間6分"
+            },
+            "frozensexycalamarigyoza": {
+                "name": "冷凍ヤリイカのセクシー餃子5個",
+                "price": 400,
+                "description": ""
             }
         }
     },

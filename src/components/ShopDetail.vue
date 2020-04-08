@@ -31,6 +31,17 @@
                             </v-card>
                         </v-flex>
                     </v-row>
+                    <v-row v-if="(shop.notices)">
+                        <v-col
+                        v-for="(notice, index) in shop.notices"
+                        v-bind:key="index"
+                        cols="12"
+                        >
+                            <v-card class="pa-5">
+                                {{ notice }}
+                            </v-card>
+                        </v-col>
+                    </v-row>
                 </v-col>
                 <v-col cols="12">
                     <v-card class="pb-8">
