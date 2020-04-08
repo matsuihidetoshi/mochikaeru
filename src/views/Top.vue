@@ -99,7 +99,7 @@
         },
         {
           text: 'このサイトのGitHub',
-          href: 'https://github.com/matsuihidetoshi/takeout-hamamatsu',
+          href: 'https://github.com/matsuihidetoshi/mochikaeru',
         },
       ],
       whatsNext: [

@@ -13,7 +13,7 @@
               追加していただくことで開発に
               貢献していただくことができます。
             </p>
-            <a href="https://github.com/matsuihidetoshi/takeout-hamamatsu" target="_blank">GitHub</a>
+            <a href="https://github.com/matsuihidetoshi/mochikaeru" target="_blank">GitHub</a>
           </v-card>
         </v-col>
       </v-row>
