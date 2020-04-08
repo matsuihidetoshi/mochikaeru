@@ -6,13 +6,13 @@
                     <h1>{{ shop.name }}</h1>
                     <v-row>
                         <v-flex
-                        v-for="(item, index) in shop.items"
-                        v-bind:key="index"
+                        v-for="(item, index, i) in shop.items"
+                        v-bind:key="i"
                         xs6 sm6 md4 text-center class="pa-3"
                         >
                             <v-card class="pa-3">
-                                <h4>{{ item.name }}</h4>
-                                <img v-if="(item.image_path)" class="image" v-bind:src="require('@/assets/shops/' + shop.key + '/items/' + item.image_path)" alt="">
+                                <h4>{{ i + 1 + '.' + item.name }}</h4>
+                                <img v-if="(item.image_path)" class="itemImage" v-bind:src="require('@/assets/shops/' + shop.key + '/items/' + item.image_path)" alt="">
                                 <p>{{ item.description }}</p>
                                 <p>¥{{ item.price.toLocaleString() }}-</p>
                             </v-card>
@@ -20,12 +20,12 @@
                     </v-row>
                     <v-row>
                         <v-flex
-                        v-for="(item, index) in shop.side_items"
-                        v-bind:key="index"
+                        v-for="(item, index, i) in shop.side_items"
+                        v-bind:key="i"
                         xs6 sm6 md4 text-center class="pa-3"
                         >
                             <v-card class="pa-3">
-                                <h4>{{ item.name }}</h4>
+                                <h4>{{ i + 101 + '.' + item.name }}</h4>
                                 <p>{{ item.description }}</p>
                                 <p>¥{{ item.price.toLocaleString() }}-</p>
                             </v-card>
@@ -48,10 +48,10 @@
                         <h4 class="pa-3">{{ shop.name }}</h4>
                         <v-row class="text-center">
                             <v-flex xs12 sm6 md6 text-center class="pa-3">
-                                <img class="image pa-3" v-bind:src="require('@/assets/shops/' + shop.key + '/main.jpg')" alt="main">
+                                <img class="shopImage pa-3" v-bind:src="require('@/assets/shops/' + shop.key + '/main.jpg')" alt="main">
                             </v-flex>
                             <v-flex xs12 sm6 md6 text-center class="pa-3">
-                                <img class="image pa-3" v-bind:src="require('@/assets/shops/' + shop.key + '/sub.jpg')" alt="sub">
+                                <img class="shopImage pa-3" v-bind:src="require('@/assets/shops/' + shop.key + '/sub.jpg')" alt="sub">
                             </v-flex>
                         </v-row>
                         <p class="pa-3 title">{{ shop.description }}</p>
@@ -99,7 +99,10 @@ export default {
 }
 </script>
 <style>
-.image {
+.itemImage {
+    height: 120px;
+}
+.shopImage {
     width: 100%;
 }
 .shop {

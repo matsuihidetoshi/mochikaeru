@@ -13,7 +13,7 @@
               <v-card min-height="200px" class="pa-3">
                 <router-link v-bind:to="{ name : 'ShopDetail', params : { key: shop.key }}" @click.native="setShop(shop.key)">
                     <h3>{{ shop.short_name }}</h3>
-                    <img class="thumbnail" v-bind:src="require('@/assets/shops/' + shop.key + '/thumbnail.jpg')" alt="">
+                    <img class="thumbnail mt-3" v-bind:src="require('@/assets/shops/' + shop.key + '/thumbnail.jpg')" alt="">
                 </router-link>
               </v-card>
             </v-flex>
@@ -41,7 +41,7 @@ export default {
 </script>
 <style>
 .thumbnail {
-    max-width: 100%;
+    height: 100px;
 }
 </style>
     
