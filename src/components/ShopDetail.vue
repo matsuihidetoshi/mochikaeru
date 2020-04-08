@@ -10,9 +10,9 @@
                         v-bind:key="index"
                         xs6 sm6 md4 text-center class="pa-3"
                         >
-                            <v-card min-height="400px" class="pa-3">
+                            <v-card class="pa-3">
                                 <h4>{{ item.name }}</h4>
-                                <img class="image" v-bind:src="require('@/assets/shops/' + shop.key + '/items/' + item.image_path)" alt="">
+                                <img v-if="(item.image_path)" class="image" v-bind:src="require('@/assets/shops/' + shop.key + '/items/' + item.image_path)" alt="">
                                 <p>{{ item.description }}</p>
                                 <p>¥{{ item.price.toLocaleString() }}-</p>
                             </v-card>

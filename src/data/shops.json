@@ -25,16 +25,16 @@
                 "image_path": "roastbeefbowl.jpg"
             },
             "friedcheckenbowl": {
-                "name": "からあげ丼",
+                "name": "洋風からあげ丼",
                 "price": 900,
                 "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
                 "image_path": "friedcheckenbowl.jpg"
             },
-            "roastbeefbowl2": {
-                "name": "ローストビーフ丼",
-                "price": 1200,
-                "description": "サーロインを使った贅沢な一品！",
-                "image_path": "roastbeefbowl.jpg"
+            "omurice": {
+                "name": "デミグラスソースのオムライス",
+                "price": 900,
+                "description": "普段お店で食べられない裏メニュー！",
+                "image_path": ""
             },
             "friedcheckenbowl2": {
                 "name": "からあげ丼",
