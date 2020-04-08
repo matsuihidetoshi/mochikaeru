@@ -15,18 +15,24 @@
           お店の味を<br>モチカエル！
         </h1>
 
-        <p class="subheading font-weight-regular">
+        <p class="title">
           お店とおうちを<br>つなげるサイト
         </p>
+
+        <v-btn to="/shops" class="title primary">お店の一覧</v-btn>
       </v-col>
 
-      <v-flex xs12 sm6 md6 text-center my-5 class="pa-3">
-        <v-card min-height="330px" class="pa-3">
-          <h2 class="headline font-weight-bold mb-3">
+      <v-col cols="12">
+        <iframe class="map" v-bind:src="map"></iframe>
+      </v-col>
+
+      <v-flex xs12 sm6 md6 text-center class="pa-3">
+        <v-card min-height="330px" class="pt-5">
+          <h2 class="headline font-weight-bold mb-3 mt-3">
             使い方
           </h2>
           <div>お店を選ぼう</div>
-          <div><router-link to="/shops">一覧</router-link></div>
+          <v-btn to="/shops" class="title primary">お店の一覧</v-btn>
           <div>⬇︎</div>
           <div>メニューをチェック</div>
           <div>⬇︎</div>
@@ -36,28 +42,27 @@
         </v-card>
       </v-flex>
 
-      <v-flex xs12 sm6 md6 text-center my-5 class="pa-3 mh-10">
+      <v-flex xs12 sm6 md6 text-center class="pa-3 mh-10">
         <v-card min-height="330px" class="pa-3">
-          <h2 class="headline font-weight-bold mb-3">
+          <h2 class="headline font-weight-bold mb-3 mt-3">
             大事なページ
           </h2>
           <p class="description">
-            <span>浜松市では、新型コロナウイルス</span>
-            <span>感染症防止のために各種の</span>
-            <span>対策サイトを公開して居ます。</span>
-            <span>オープンソースプロジェクトとして</span>
-            <span>進行しており、下記リンクより</span>
-            <span>開発に貢献していただくことができます。</span>
+            浜松市では、新型コロナウイルス
+            感染症防止のために各種の
+            対策サイトを公開して居ます。
+            オープンソースプロジェクトとして
+            進行しており、下記リンクより
+            開発に貢献していただくことができます。
           </p>
-          <a
+          <p
             v-for="(link, i) in importantLinks"
             :key="i"
-            :href="link.href"
-            class="subheading mx-3"
+            class="mx-1"
             target="_blank"
           >
-            {{ link.text }}
-          </a>
+            <a :href="link.href" target="_blank">{{ link.text }}</a>
+          </p>
         </v-card>
       </v-flex>
     </v-row>
@@ -111,11 +116,17 @@
           href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
         },
       ],
+      map: "https://www.google.com/maps/d/embed?mid=1znYQhKGizcZab2ZTFwQ8r88Kekl1IiQn&hl=ja",
     }),
   }
 </script>
 <style>
 .description span {
   display: inline-block;
+}
+.map {
+    width: 90%;
+    margin: 5%;
+    height: 400px;
 }
 </style>

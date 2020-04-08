@@ -21,4 +21,12 @@ export default new Vuetify({
   icons: {
     iconfont: 'mdiSvg',
   },
+  breakpoint: {
+    thresholds: {
+      xs: 544,
+      sm: 768,
+      md: 992,
+      lg: 1200,
+    },
+  },
 });
