@@ -18,6 +18,19 @@
                             </v-card>
                         </v-flex>
                     </v-row>
+                    <v-row>
+                        <v-flex
+                        v-for="(item, index) in shop.side_items"
+                        v-bind:key="index"
+                        xs6 sm6 md4 text-center class="pa-3"
+                        >
+                            <v-card class="pa-3">
+                                <h4>{{ item.name }}</h4>
+                                <p>{{ item.description }}</p>
+                                <p>¥{{ item.price.toLocaleString() }}-</p>
+                            </v-card>
+                        </v-flex>
+                    </v-row>
                 </v-col>
                 <v-col cols="12">
                     <v-card class="pb-8">

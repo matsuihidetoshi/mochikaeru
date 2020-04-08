@@ -34,73 +34,372 @@
                 "name": "デミグラスソースのオムライス",
                 "price": 900,
                 "description": "普段お店で食べられない裏メニュー！",
-                "image_path": ""
+                "image_path": "omurice.jpg"
+            }
+        },
+        "side_items": {
+            "bigrice": {
+                "name": "ご飯大盛り",
+                "price": 100,
+                "description": ""
             },
-            "friedcheckenbowl2": {
-                "name": "からあげ丼",
-                "price": 900,
-                "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
-                "image_path": "friedcheckenbowl.jpg"
+            "potatosalad": {
+                "name": "ポテトサラダ",
+                "price": 200,
+                "description": ""
             },
-            "roastbeefbowl3": {
-                "name": "ローストビーフ丼",
-                "price": 1200,
-                "description": "サーロインを使った贅沢な一品！",
-                "image_path": "roastbeefbowl.jpg"
+            "pickles": {
+                "name": "ピクルス",
+                "price": 200,
+                "description": ""
             },
-            "friedcheckenbowl3": {
-                "name": "からあげ丼",
-                "price": 900,
-                "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
-                "image_path": "friedcheckenbowl.jpg"
+            "tomatomarine": {
+                "name": "トマトマリネ",
+                "price": 200,
+                "description": ""
+            },
+            "greensalad": {
+                "name": "グリーンサラダ",
+                "price": 200,
+                "description": ""
+            },
+            "takograpefruitsmarine": {
+                "name": "タコとグレープフルーツのマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "shrimpbroccolibazilmarine": {
+                "name": "海老とブロッコリーのバジルマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "margherita": {
+                "name": "マルゲリータ",
+                "price": 950,
+                "description": "トマト、モッツァレラ、バジルのピザ"
+            },
+            "quatroformaggio": {
+                "name": "クワトロフォルマッジョ",
+                "price": 1050,
+                "description": "4種類のチーズを使ったピザ"
+            },
+            "meatsource": {
+                "name": "自家製ミートソース",
+                "price": 950,
+                "description": "温玉のせビスマルク風ピザ"
+            },
+            "salmonpotatogenovese": {
+                "name": "サーモンとじゃがいものジェノベーゼ",
+                "price": 1050,
+                "description": "自家製バジルソースピザ"
+            },
+            "cicinielli": {
+                "name": "チチニエリ",
+                "price": 1050,
+                "description": "しらすのピザ"
             }
         }
     },
-    "zol": {
-        "name": "ブリティッシュフレンチ 酒場 ZOL ゾル",
-        "short_name": "ZOL ゾル",
-        "key": "zol",
+    "gyotheman": {
+        "name": "スパニッシュイタリアン酒場 SOL ソル",
+        "short_name": "SOL ソル",
+        "key": "sol",
         "description": "シェフこだわりの本格的スパニッシュイタリアン料理をお弁当で！",
-        "zipcode": "",
-        "address": "",
-        "tel": "",
-        "url": "",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町323番1",
+        "other_address": "大石ビル1階",
+        "tel": "050-3461-4717",
+        "email": "sol.hamamatsu123@gmail.com",
+        "reception_hours": "16時〜22時",
+        "delivery_hours": "17時〜23時",
+        "close": "火曜日",
+        "payments":"現金、クレジットカード",
+        "url": "https://spanishitaliansakabasol.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.9105355163965!2d137.7278373152658!3d34.70743639036499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b4c343383%3A0xfe7a41e992dbf0bf!2z44K544OR44OL44OD44K344Ol44Kk44K_44Oq44Ki44Oz6YWS5aC0IFNPTO-8iOOCveODq--8iQ!5e0!3m2!1sja!2sjp!4v1586322803985!5m2!1sja!2sjp",
         "items": {
             "roastbeefbowl": {
-                "name": "ローストビーフ丼",
+                "name": "自家製ローストビーフ丼",
                 "price": 1200,
-                "description": "サーロインを使った贅沢な一品！",
+                "description": "牛サーロインを使った贅沢な一品！",
                 "image_path": "roastbeefbowl.jpg"
             },
             "friedcheckenbowl": {
-                "name": "からあげ丼",
+                "name": "洋風からあげ丼",
                 "price": 900,
                 "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
                 "image_path": "friedcheckenbowl.jpg"
+            },
+            "omurice": {
+                "name": "デミグラスソースのオムライス",
+                "price": 900,
+                "description": "普段お店で食べられない裏メニュー！",
+                "image_path": "omurice.jpg"
+            }
+        },
+        "side_items": {
+            "bigrice": {
+                "name": "ご飯大盛り",
+                "price": 100,
+                "description": ""
+            },
+            "potatosalad": {
+                "name": "ポテトサラダ",
+                "price": 200,
+                "description": ""
+            },
+            "pickles": {
+                "name": "ピクルス",
+                "price": 200,
+                "description": ""
+            },
+            "tomatomarine": {
+                "name": "トマトマリネ",
+                "price": 200,
+                "description": ""
+            },
+            "greensalad": {
+                "name": "グリーンサラダ",
+                "price": 200,
+                "description": ""
+            },
+            "takograpefruitsmarine": {
+                "name": "タコとグレープフルーツのマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "shrimpbroccolibazilmarine": {
+                "name": "海老とブロッコリーのバジルマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "margherita": {
+                "name": "マルゲリータ",
+                "price": 950,
+                "description": "トマト、モッツァレラ、バジルのピザ"
+            },
+            "quatroformaggio": {
+                "name": "クワトロフォルマッジョ",
+                "price": 1050,
+                "description": "4種類のチーズを使ったピザ"
+            },
+            "meatsource": {
+                "name": "自家製ミートソース",
+                "price": 950,
+                "description": "温玉のせビスマルク風ピザ"
+            },
+            "salmonpotatogenovese": {
+                "name": "サーモンとじゃがいものジェノベーゼ",
+                "price": 1050,
+                "description": "自家製バジルソースピザ"
+            },
+            "cicinielli": {
+                "name": "チチニエリ",
+                "price": 1050,
+                "description": "しらすのピザ"
             }
         }
     },
-    "jol": {
-        "name": "アイリッシュスカンジナビアン酒場 JOL ジョル",
-        "short_name": "JOL ジョル",
-        "key": "jol",
+    "sinse": {
+        "name": "スパニッシュイタリアン酒場 SOL ソル",
+        "short_name": "SOL ソル",
+        "key": "sol",
         "description": "シェフこだわりの本格的スパニッシュイタリアン料理をお弁当で！",
-        "zipcode": "",
-        "address": "",
-        "tel": "",
-        "url": "",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町323番1",
+        "other_address": "大石ビル1階",
+        "tel": "050-3461-4717",
+        "email": "sol.hamamatsu123@gmail.com",
+        "reception_hours": "16時〜22時",
+        "delivery_hours": "17時〜23時",
+        "close": "火曜日",
+        "payments":"現金、クレジットカード",
+        "url": "https://spanishitaliansakabasol.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.9105355163965!2d137.7278373152658!3d34.70743639036499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b4c343383%3A0xfe7a41e992dbf0bf!2z44K544OR44OL44OD44K344Ol44Kk44K_44Oq44Ki44Oz6YWS5aC0IFNPTO-8iOOCveODq--8iQ!5e0!3m2!1sja!2sjp!4v1586322803985!5m2!1sja!2sjp",
         "items": {
             "roastbeefbowl": {
-                "name": "ローストビーフ丼",
+                "name": "自家製ローストビーフ丼",
                 "price": 1200,
-                "description": "サーロインを使った贅沢な一品！",
+                "description": "牛サーロインを使った贅沢な一品！",
                 "image_path": "roastbeefbowl.jpg"
             },
             "friedcheckenbowl": {
-                "name": "からあげ丼",
+                "name": "洋風からあげ丼",
                 "price": 900,
                 "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
                 "image_path": "friedcheckenbowl.jpg"
+            },
+            "omurice": {
+                "name": "デミグラスソースのオムライス",
+                "price": 900,
+                "description": "普段お店で食べられない裏メニュー！",
+                "image_path": "omurice.jpg"
+            }
+        },
+        "side_items": {
+            "bigrice": {
+                "name": "ご飯大盛り",
+                "price": 100,
+                "description": ""
+            },
+            "potatosalad": {
+                "name": "ポテトサラダ",
+                "price": 200,
+                "description": ""
+            },
+            "pickles": {
+                "name": "ピクルス",
+                "price": 200,
+                "description": ""
+            },
+            "tomatomarine": {
+                "name": "トマトマリネ",
+                "price": 200,
+                "description": ""
+            },
+            "greensalad": {
+                "name": "グリーンサラダ",
+                "price": 200,
+                "description": ""
+            },
+            "takograpefruitsmarine": {
+                "name": "タコとグレープフルーツのマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "shrimpbroccolibazilmarine": {
+                "name": "海老とブロッコリーのバジルマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "margherita": {
+                "name": "マルゲリータ",
+                "price": 950,
+                "description": "トマト、モッツァレラ、バジルのピザ"
+            },
+            "quatroformaggio": {
+                "name": "クワトロフォルマッジョ",
+                "price": 1050,
+                "description": "4種類のチーズを使ったピザ"
+            },
+            "meatsource": {
+                "name": "自家製ミートソース",
+                "price": 950,
+                "description": "温玉のせビスマルク風ピザ"
+            },
+            "salmonpotatogenovese": {
+                "name": "サーモンとじゃがいものジェノベーゼ",
+                "price": 1050,
+                "description": "自家製バジルソースピザ"
+            },
+            "cicinielli": {
+                "name": "チチニエリ",
+                "price": 1050,
+                "description": "しらすのピザ"
+            }
+        }
+    },
+    "leader": {
+        "name": "スパニッシュイタリアン酒場 SOL ソル",
+        "short_name": "SOL ソル",
+        "key": "sol",
+        "description": "シェフこだわりの本格的スパニッシュイタリアン料理をお弁当で！",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町323番1",
+        "other_address": "大石ビル1階",
+        "tel": "050-3461-4717",
+        "email": "sol.hamamatsu123@gmail.com",
+        "reception_hours": "16時〜22時",
+        "delivery_hours": "17時〜23時",
+        "close": "火曜日",
+        "payments":"現金、クレジットカード",
+        "url": "https://spanishitaliansakabasol.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.9105355163965!2d137.7278373152658!3d34.70743639036499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b4c343383%3A0xfe7a41e992dbf0bf!2z44K544OR44OL44OD44K344Ol44Kk44K_44Oq44Ki44Oz6YWS5aC0IFNPTO-8iOOCveODq--8iQ!5e0!3m2!1sja!2sjp!4v1586322803985!5m2!1sja!2sjp",
+        "items": {
+            "roastbeefbowl": {
+                "name": "自家製ローストビーフ丼",
+                "price": 1200,
+                "description": "牛サーロインを使った贅沢な一品！",
+                "image_path": "roastbeefbowl.jpg"
+            },
+            "friedcheckenbowl": {
+                "name": "洋風からあげ丼",
+                "price": 900,
+                "description": "自家製唐揚げと特製マヨソースが絶妙にマッチ！",
+                "image_path": "friedcheckenbowl.jpg"
+            },
+            "omurice": {
+                "name": "デミグラスソースのオムライス",
+                "price": 900,
+                "description": "普段お店で食べられない裏メニュー！",
+                "image_path": "omurice.jpg"
+            }
+        },
+        "side_items": {
+            "bigrice": {
+                "name": "ご飯大盛り",
+                "price": 100,
+                "description": ""
+            },
+            "potatosalad": {
+                "name": "ポテトサラダ",
+                "price": 200,
+                "description": ""
+            },
+            "pickles": {
+                "name": "ピクルス",
+                "price": 200,
+                "description": ""
+            },
+            "tomatomarine": {
+                "name": "トマトマリネ",
+                "price": 200,
+                "description": ""
+            },
+            "greensalad": {
+                "name": "グリーンサラダ",
+                "price": 200,
+                "description": ""
+            },
+            "takograpefruitsmarine": {
+                "name": "タコとグレープフルーツのマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "shrimpbroccolibazilmarine": {
+                "name": "海老とブロッコリーのバジルマリネ",
+                "price": 500,
+                "description": ""
+            },
+            "margherita": {
+                "name": "マルゲリータ",
+                "price": 950,
+                "description": "トマト、モッツァレラ、バジルのピザ"
+            },
+            "quatroformaggio": {
+                "name": "クワトロフォルマッジョ",
+                "price": 1050,
+                "description": "4種類のチーズを使ったピザ"
+            },
+            "meatsource": {
+                "name": "自家製ミートソース",
+                "price": 950,
+                "description": "温玉のせビスマルク風ピザ"
+            },
+            "salmonpotatogenovese": {
+                "name": "サーモンとじゃがいものジェノベーゼ",
+                "price": 1050,
+                "description": "自家製バジルソースピザ"
+            },
+            "cicinielli": {
+                "name": "チチニエリ",
+                "price": 1050,
+                "description": "しらすのピザ"
             }
         }
     }
