@@ -19,11 +19,19 @@
           お店とおうちを<br>つなげるサイト
         </p>
 
-        <v-btn to="/shops" class="title primary">お店の一覧</v-btn>
+        <v-btn to="/shops" class="title success">お店の一覧</v-btn>
       </v-col>
 
       <v-col cols="12">
         <iframe class="map" v-bind:src="map"></iframe>
+      </v-col>
+
+      <v-col cols="12">
+        <p class="title">
+          掲載希望の店舗様は<br>こちら⬇︎から
+        </p>
+
+        <v-btn href="https://forms.gle/m9tUPgG9JTgxEsZi8" class="title success" target="_blank">お店掲載申請</v-btn>
       </v-col>
 
       <v-flex xs12 sm6 md6 text-center class="pa-3">
@@ -32,7 +40,7 @@
             使い方
           </h2>
           <div>お店を選ぼう</div>
-          <v-btn to="/shops" class="title primary">お店の一覧</v-btn>
+          <v-btn to="/shops" class="title success">お店の一覧</v-btn>
           <div>⬇︎</div>
           <div>メニューをチェック</div>
           <div>⬇︎</div>
