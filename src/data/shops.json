@@ -119,7 +119,7 @@
         "url": "https://gyotheman.owst.jp/",
         "map": "pb=!1m18!1m12!1m3!1d3279.9299243841133!2d137.73002261524434!3d34.70694738043288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adf796325f0b7%3A0xaaac0fb813865523!2z5aSn6KGG6YWS5aC0IEdZTyB0aGUgTUFO!5e0!3m2!1sja!2sjp!4v1586335475558!5m2!1sja!2sjp",
         "notices": {
-            "notice1": "揚げる餃子以外は、熱したフライパンに油を軽く引いて、餃子を並べて水を300cc入れて蓋をして3分半くらい蒸し焼きにして、水が引いたらごま油を掛けて表面に焦げ目を付けて、1分蒸し焼きにして完成です"
+            "0": "揚げる餃子以外は、熱したフライパンに油を軽く引いて、餃子を並べて水を300cc入れて蓋をして3分半くらい蒸し焼きにして、水が引いたらごま油を掛けて表面に焦げ目を付けて、1分蒸し焼きにして完成です"
         },
         "items": {
             "friedwholechecken": {
@@ -282,6 +282,145 @@
                 "name": "おうちで真鯛のだししゃぶ",
                 "price": 1600,
                 "description": "一人前1,600円(二名様より)、お出し、真鯛、お野菜など。土鍋さえあれば直ぐに食べられます。"
+            }
+        }
+    },
+    "leader": {
+        "name": "アメリカン肉バル リーダー",
+        "short_name": "Leader",
+        "key": "leader",
+        "description": "",
+        "zipcode": "430-0934",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "神明町314-7",
+        "other_address": "",
+        "tel": "053-455-2851",
+        "email": "satolee1234@gmail.com",
+        "reception_hours": "16時〜23時",
+        "delivery_hours": "18時〜24時",
+        "close": "水曜日",
+        "payments":"現金、クレジットカード、PayPay",
+        "url": "http://www.leader-bg.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.8897947403284!2d137.72612161526578!3d34.70795949033708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade634188118d%3A0x54592d8ab18c3c09!2sLEADER!5e0!3m2!1sja!2sjp!4v1586418077316!5m2!1sja!2sjp",
+        "notices": {
+            "0": "各ハンバーガーには全てポテトが付きます。初めに牛か豚をお選びください。",
+            "1": "各値段は税抜き価格となります。"
+        },
+        "items": {
+            "1pondsteak": {
+                "name": "Beef1ポンドステーキ(450g)",
+                "price": 2900,
+                "description": "",
+                "image_path": "1pondsteak.jpg"
+            },
+            "hamburger": {
+                "name": "ハンバーガー",
+                "price": 1050,
+                "description": "",
+                "image_path": "hamburger.jpg"
+            },
+            "locomoco": {
+                "name": "遠州黒豚ロコモコ",
+                "price": 1080,
+                "description": "",
+                "image_path": "locomoco.jpg"
+            },
+            "spareribs": {
+                "name": "スペアリブ3本",
+                "price": 990,
+                "description": "",
+                "image_path": "spareribs.jpg"
+            },
+            "friedchecken": {
+                "name": "フライドチキン",
+                "price": 690,
+                "description": "",
+                "image_path": "friedchecken.jpg"
+            },
+            "buffalochecken": {
+                "name": "バッファローチキン",
+                "price": 790,
+                "description": "",
+                "image_path": "buffalochecken.jpg"
+            },
+            "sausagefrit": {
+                "name": "ソーセージフリット",
+                "price": 660,
+                "description": "",
+                "image_path": "sausagefrit.jpg"
+            },
+            "anchoviebroccoli": {
+                "name": "アンチョビブロッコリー",
+                "price": 550,
+                "description": "",
+                "image_path": "anchoviebroccoli.jpg"
+            },
+            "baconpotatosalad": {
+                "name": "厚切りベーコンポテトサラダ",
+                "price": 680,
+                "description": "",
+                "image_path": "baconpotatosalad.jpg"
+            },
+            "caesarsalad": {
+                "name": "ブロックベーコン温玉シーザーサラダ",
+                "price": 780,
+                "description": "",
+                "image_path": "caesarsalad.jpg"
+            },
+            "nachoscheesesalad": {
+                "name": "アボカド&ナチョスチーズサラダ",
+                "price": 780,
+                "description": "",
+                "image_path": "nachoscheesesalad.jpg"
+            },
+            "shrimpavocadosalad": {
+                "name": "シュリンプ&アボカドコブサラダ",
+                "price": 780,
+                "description": "",
+                "image_path": "shrimpavocadosalad.jpg"
+            }
+        },
+        "side_items": {
+            "cheeseburger": {
+                "name": "チーズバーガー",
+                "price": 1150,
+                "description": ""
+            },
+            "baconcheeseburger": {
+                "name": "ベーコンチーズバーガー",
+                "price": 1300,
+                "description": ""
+            },
+            "avocadocheeseburger": {
+                "name": "アボカドチーズバーガー",
+                "price": 1300,
+                "description": ""
+            },
+            "specialburger": {
+                "name": "スペシャル(チーズ、ベーコン、アボカド)バーガー",
+                "price": 1380,
+                "description": ""
+            },
+            "garlicbutterbeans": {
+                "name": "ガーリックバター枝豆",
+                "price": 530,
+                "description": ""
+            },
+            "anchobicabbage": {
+                "name": "アンチョビキャベツ",
+                "price": 550,
+                "description": ""
+            },
+            "cauliflowerbbqpotato": {
+                "name": "カリフワBBQポテト",
+                "price": 590,
+                "description": ""
+            },
+            "tacorice": {
+                "name": "具だくさんタコライス",
+                "price": 1080,
+                "description": ""
             }
         }
     }
