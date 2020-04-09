@@ -34,9 +34,9 @@
         <v-btn href="https://forms.gle/m9tUPgG9JTgxEsZi8" class="title success" target="_blank">お店掲載申請</v-btn>
       </v-col>
 
-      <v-flex xs12 sm6 md6 text-center class="pa-3">
-        <v-card min-height="330px" class="pt-5">
-          <h2 class="headline font-weight-bold mb-3 mt-3">
+      <v-flex xs12 sm12 md4 text-center class="pa-3">
+        <v-card min-height="400px" class="pt-5 align-center">
+          <h2 class="headline font-weight-bold mb-3 mt-7">
             使い方
           </h2>
           <div>お店を選ぼう</div>
@@ -50,9 +50,26 @@
         </v-card>
       </v-flex>
 
-      <v-flex xs12 sm6 md6 text-center class="pa-3 mh-10">
-        <v-card min-height="330px" class="pa-3">
-          <h2 class="headline font-weight-bold mb-3 mt-3">
+      <v-flex xs12 sm12 md4 text-center class="pa-3 mh-10">
+        <v-card min-height="400px" class="pa-3" align="center">
+          <h2 class="headline font-weight-bold mb-3 mt-7">
+            QRコードでシェアしよう！
+          </h2>
+          <v-card width="200px" class="mt-10">
+            <v-img
+              :src="require('../assets/qr.png')"
+              class="my-3"
+              contain
+              height="200"
+            />
+          </v-card>
+          <p>mochikaeru.com</p>
+        </v-card>
+      </v-flex>
+
+      <v-flex xs12 sm12 md4 text-center class="pa-3 mh-10">
+        <v-card min-height="400px" class="pa-3">
+          <h2 class="headline font-weight-bold mb-3 mt-7">
             大事なページ
           </h2>
           <p class="description">
