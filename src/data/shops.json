@@ -428,5 +428,78 @@
                 "description": ""
             }
         }
+    },
+    "avswe": {
+        "name": "アヴスウェ",
+        "short_name": "アヴスウェ",
+        "key": "avswe",
+        "description": "",
+        "zipcode": "431-3101",
+        "prefecture": "静岡県",
+        "city": "浜松市東区",
+        "address": "豊町3538",
+        "other_address": "",
+        "tel": "053-434-7181",
+        "email": "yivn8010@gmail.com",
+        "reception_hours": "11:00～18:45",
+        "delivery_hours": "12:00～19:00",
+        "close": "水曜日",
+        "payments":"現金、クレジットカード、PayPay",
+        "url": "https://at1794.wixsite.com/avossouhaits",
+        "map": "pb=!1m18!1m12!1m3!1d3277.1287171071303!2d137.80425831523442!3d34.77753478041478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ae1b26837ee7f%3A0xad38841bb0c267b7!2z44Ki44O044K544Km44Kn!5e0!3m2!1sja!2sjp!4v1586528522869!5m2!1sja!2sjp",
+        "notices": {
+            "0": "季節のガレットは、スタッフまでお尋ねください",
+            "1": "季節のカレーは、スタッフまでお尋ねください"
+        },
+        "items": {
+            "complet": {
+                "name": "コンプレット",
+                "price": 830,
+                "description": "ハム・チーズ・トマト又はオニオン",
+                "image_path": "complet.jpg"
+            },
+            "salmoncreamgalette": {
+                "name": "サーモンとほうれん草のクリームガレット",
+                "price": 1080,
+                "description": "スモークサーモン・ほうれん草・チーズ・オニオン・ホワイトソース・ケッパー",
+                "image_path": "salmoncreamgalette.jpg"
+            },
+            "bacongalette": {
+                "name": "ナスとトマトとベーコンのガレット",
+                "price": 1080,
+                "description": "卵・トマト・トマトソース・ベーコン・チーズ",
+                "image_path": "bacongalette.jpg"
+            },
+            "saladgalette": {
+                "name": "きのことアンチョビとポテトのサラダガレット",
+                "price": 1080,
+                "description": "きのこ・アンチョビ・ベーコン・チーズ・ポテト・サラダ",
+                "image_path": "saladgalette.jpg"
+            },
+            "caribbeancurry": {
+                "name": "カリビアンカレー",
+                "price": 1080,
+                "description": "エビ・ホタテ・ブロッコリー・トマト",
+                "image_path": "caribbeancurry.jpg"
+            },
+            "friedchickencurry": {
+                "name": "フライドチキンのカレー",
+                "price": 1080,
+                "description": "自家製フライドチキン・ブロッコリー",
+                "image_path": "friedchickencurry.jpg"
+            },
+            "rice": {
+                "name": "夜の宙ごはん",
+                "price": 1080,
+                "description": "浜名湖産うなぎ・卵・オクラ・ごま",
+                "image_path": "rice.jpg"
+            },
+            "curryroux": {
+                "name": "自家製カレールー",
+                "price": 750,
+                "description": "1人前たっぷり240g",
+                "image_path": "curryroux.jpg"
+            }
+        }
     }
 }
