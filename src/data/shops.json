@@ -35,6 +35,36 @@
                 "price": 900,
                 "description": "普段お店で食べられない裏メニュー！",
                 "image_path": "omurice.jpg"
+            },
+            "meatsource": {
+                "name": "自家製ミートソース",
+                "price": 950,
+                "description": "温玉のせビスマルク風ピザ",
+                "image_path": "meatsource.jpg"
+            },
+            "salmonpotatogenovese": {
+                "name": "サーモンとじゃがいものジェノベーゼ",
+                "price": 1050,
+                "description": "自家製バジルソースピザ",
+                "image_path": "salmonpotatogenovese.jpg"
+            },
+            "greensalad": {
+                "name": "グリーンサラダ",
+                "price": 200,
+                "description": "",
+                "image_path": "greensalad.jpg"
+            },
+            "takograpefruitsmarine": {
+                "name": "タコとグレープフルーツのマリネ",
+                "price": 500,
+                "description": "",
+                "image_path": "takograpefruitsmarine.jpg"
+            },
+            "shrimpbroccolibazilmarine": {
+                "name": "海老とブロッコリーのバジルマリネ",
+                "price": 500,
+                "description": "",
+                "image_path": "shrimpbroccolibazilmarine.jpg"
             }
         },
         "side_items": {
@@ -58,21 +88,6 @@
                 "price": 200,
                 "description": ""
             },
-            "greensalad": {
-                "name": "グリーンサラダ",
-                "price": 200,
-                "description": ""
-            },
-            "takograpefruitsmarine": {
-                "name": "タコとグレープフルーツのマリネ",
-                "price": 500,
-                "description": ""
-            },
-            "shrimpbroccolibazilmarine": {
-                "name": "海老とブロッコリーのバジルマリネ",
-                "price": 500,
-                "description": ""
-            },
             "margherita": {
                 "name": "マルゲリータ",
                 "price": 950,
@@ -82,16 +97,6 @@
                 "name": "クワトロフォルマッジョ",
                 "price": 1050,
                 "description": "4種類のチーズを使ったピザ"
-            },
-            "meatsource": {
-                "name": "自家製ミートソース",
-                "price": 950,
-                "description": "温玉のせビスマルク風ピザ"
-            },
-            "salmonpotatogenovese": {
-                "name": "サーモンとじゃがいものジェノベーゼ",
-                "price": 1050,
-                "description": "自家製バジルソースピザ"
             },
             "cicinielli": {
                 "name": "チチニエリ",
