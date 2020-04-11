@@ -501,5 +501,265 @@
                 "image_path": "curryroux.jpg"
             }
         }
+    },
+    "elcaminotamati": {
+        "name": "エルカミーノ タマチ",
+        "short_name": "エルカミーノ タマチ",
+        "key": "elcaminotamati",
+        "description": "",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町325-1",
+        "other_address": "渥美ビル3F",
+        "tel": "053-457-1757",
+        "email": "elcamino1757@gmail.com",
+        "reception_hours": "16:00～23:00",
+        "delivery_hours": "17:00～24:00 休日もご相談ください",
+        "close": "日曜日、第2月曜日",
+        "payments":"現金、クレジットカード、PayPay、auPAY",
+        "url": "https://elcamino.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.890223352958!2d137.72767591523242!3d34.70794868043263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade64b1e06c23%3A0xbffe1b69738bbedc!2z44Ko44Or44Kr44Of44O844OOIOeUsOeUuuW6lw!5e0!3m2!1sja!2sjp!4v1586571784155!5m2!1sja!2sjp",
+        "notices": {
+            "0": "※価格は税抜きになります。"
+        },
+        "items": {
+            "seafoodpaella": {
+                "name": "魚介のパエリア",
+                "price": 2700,
+                "description": "2名様分(￥2700)、3名様分(￥4050)、4名様分(￥4980)、5名様分(￥5980)になります。",
+                "image_path": "seafoodpaella.jpg"
+            },
+            "squidpaella": {
+                "name": "イカ墨のパエリア",
+                "price": 2400,
+                "description": "2名様分(￥2400)、3名様分(￥3600)、4名様分(￥3980)、5名様分(￥4980)になります。",
+                "image_path": "squidpaella.jpg"
+            },
+            "mushroompaella": {
+                "name": "きのこと鶏肉のパエリア",
+                "price": 2300,
+                "description": "2名様分(￥2300)、3名様分(￥3450)、4名様分(￥3980)、5名様分(￥4980)になります。",
+                "image_path": "mushroompaella.jpg"
+            },
+            "sausagepaella": {
+                "name": "ソーセージのパエリア",
+                "price": 2300,
+                "description": "2名様分(￥2300)、3名様分(￥3450)、4名様分(￥3980)、5名様分(￥4980)になります。",
+                "image_path": "sausagepaella.jpg"
+            },
+            "seafoodchickenpaella": {
+                "name": "魚介と鶏肉のパエリア",
+                "price": 3200,
+                "description": "2名様分(￥3200)、3名様分(￥4800)、4名様分(￥5980)、5名様分(￥6980)になります。",
+                "image_path": "seafoodchickenpaella.jpg"
+            },
+            "lobsterpaella": {
+                "name": "ロブスターと魚介と鶏肉のパエリア",
+                "price": 4500,
+                "description": "2名様分(￥4500)、3名様分(￥6000)、4名様分(￥7980)、5名様分(￥9900)になります。",
+                "image_path": "lobsterpaella.jpg"
+            },
+            "chillindrone": {
+                "name": "鶏肉のチリンドロン",
+                "price": 800,
+                "description": "",
+                "image_path": "chillindrone.jpg"
+            },
+            "porkzaragozastyle": {
+                "name": "豚肉のサラゴサ風",
+                "price": 800,
+                "description": "",
+                "image_path": "porkzaragozastyle.jpg"
+            },
+            "carrotsalad": {
+                "name": "にんじんサラダ",
+                "price" : 500,
+                "description": "",
+                "image_path": "carrotsalad.jpg"
+            }
+        },
+        "side_items": {
+            "selfpinchosset_s": {
+                "name": "セルフピンチョスセットS",
+                "price": 1850,
+                "description": "1～2名様分 バケット8枚付"
+            },
+            "selfpinchosset_m": {
+                "name": "セルフピンチョスセットM",
+                "price": 3600,
+                "description": "3～4名様分 バケット16枚付"
+            },
+            "selfpinchosset_l": {
+                "name": "セルフピンチョスセットL",
+                "price": 5300,
+                "description": "5～6名様分 バケット24枚付"
+            },
+            "selfpinchosset_ll": {
+                "name": "セルフピンチョスセットLL",
+                "price": 8500,
+                "description": "8～10名様分 バケット40枚付"
+            },
+            "mushroomcreamboiled": {
+                "name": "鶏肉のマッシュルームのクリーム煮シェリー酒風味",
+                "price": 980,
+                "description": ""
+            },
+            "shrimpcreamsauce": {
+                "name": "魚介とエビのクリームソース",
+                "price": 1380,
+                "description": ""
+            },
+            "bucket": {
+                "name": "バケット(6枚)",
+                "price": 200,
+                "description": ""
+            },
+            "seasonalpaella": {
+                "name": "季節限定のパエリア",
+                "price": 2400,
+                "description": "2名様分(￥2400)、3名様分(￥3600)、4名様分(￥4800)、5名様分(￥5800)になります。"
+            },
+            "iberianporkham_25": {
+                "name": "イベリコ豚の生ハム(25g)",
+                "price": 1200,
+                "description": "約2名様"
+            },
+            "iberianporkham_50": {
+                "name": "イベリコ豚の生ハム(50g)",
+                "price": 2400,
+                "description": "約4名様"
+            }
+        }
+    },
+    "elcaminosanarudai": {
+        "name": "エルカミーノ 佐鳴台",
+        "short_name": "エルカミーノ 佐鳴台",
+        "key": "elcaminosanarudai",
+        "description": "",
+        "zipcode": "432-8021",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "佐鳴台3-54-45",
+        "other_address": "",
+        "tel": "053-440-7057",
+        "email": "elcamino7057@gmail.com",
+        "reception_hours": "11:00～22:00",
+        "delivery_hours": "12:00～14:00、17:30～23:00",
+        "close": "月曜日、第2火曜日",
+        "payments":"現金、クレジットカード、PayPay、auPAY",
+        "url": "https://spain-hamamatsu.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.909425724509!2d137.69192761523237!3d34.707464380432704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adecf6f53b9d5%3A0xef88940b3ceac875!2z44CSNDMyLTgwMjEg6Z2Z5bKh55yM5rWc5p2-5biC5Lit5Yy65L2Q6bO05Y-w77yT5LiB55uu77yV77yU4oiS77yU77yVIOOCqOODq-OCq-ODn-ODvOODjg!5e0!3m2!1sja!2sjp!4v1586576522200!5m2!1sja!2sjp",
+        "notices": {
+            "0": "※価格は税抜きになります。"
+        },
+        "items": {
+            "seafoodpaella": {
+                "name": "魚介のパエリア",
+                "price": 2700,
+                "description": "2名様分(￥2700)、3名様分(￥4050)、4名様分(￥4980)、5名様分(￥5980)になります。",
+                "image_path": "seafoodpaella.jpg"
+            },
+            "squidpaella": {
+                "name": "イカ墨のパエリア",
+                "price": 2400,
+                "description": "2名様分(￥2400)、3名様分(￥3600)、4名様分(￥3980)、5名様分(￥4980)になります。",
+                "image_path": "squidpaella.jpg"
+            },
+            "mushroompaella": {
+                "name": "きのこと鶏肉のパエリア",
+                "price": 2300,
+                "description": "2名様分(￥2300)、3名様分(￥3450)、4名様分(￥3980)、5名様分(￥4980)になります。",
+                "image_path": "mushroompaella.jpg"
+            },
+            "sausagepaella": {
+                "name": "ソーセージのパエリア",
+                "price": 2300,
+                "description": "2名様分(￥2300)、3名様分(￥3450)、4名様分(￥3980)、5名様分(￥4980)になります。",
+                "image_path": "sausagepaella.jpg"
+            },
+            "seafoodchickenpaella": {
+                "name": "魚介と鶏肉のパエリア",
+                "price": 3200,
+                "description": "2名様分(￥3200)、3名様分(￥4800)、4名様分(￥5980)、5名様分(￥6980)になります。",
+                "image_path": "seafoodchickenpaella.jpg"
+            },
+            "lobsterpaella": {
+                "name": "ロブスターと魚介と鶏肉のパエリア",
+                "price": 4500,
+                "description": "2名様分(￥4500)、3名様分(￥6000)、4名様分(￥7980)、5名様分(￥9900)になります。",
+                "image_path": "lobsterpaella.jpg"
+            },
+            "chillindrone": {
+                "name": "鶏肉のチリンドロン",
+                "price": 800,
+                "description": "",
+                "image_path": "chillindrone.jpg"
+            },
+            "porkzaragozastyle": {
+                "name": "豚肉のサラゴサ風",
+                "price": 800,
+                "description": "",
+                "image_path": "porkzaragozastyle.jpg"
+            },
+            "carrotsalad": {
+                "name": "にんじんサラダ",
+                "price" : 500,
+                "description": "",
+                "image_path": "carrotsalad.jpg"
+            }
+        },
+        "side_items": {
+            "selfpinchosset_s": {
+                "name": "セルフピンチョスセットS",
+                "price": 1850,
+                "description": "1～2名様分 バケット8枚付"
+            },
+            "selfpinchosset_m": {
+                "name": "セルフピンチョスセットM",
+                "price": 3600,
+                "description": "3～4名様分 バケット16枚付"
+            },
+            "selfpinchosset_l": {
+                "name": "セルフピンチョスセットL",
+                "price": 5300,
+                "description": "5～6名様分 バケット24枚付"
+            },
+            "selfpinchosset_ll": {
+                "name": "セルフピンチョスセットLL",
+                "price": 8500,
+                "description": "8～10名様分 バケット40枚付"
+            },
+            "mushroomcreamboiled": {
+                "name": "鶏肉のマッシュルームのクリーム煮シェリー酒風味",
+                "price": 980,
+                "description": ""
+            },
+            "shrimpcreamsauce": {
+                "name": "魚介とエビのクリームソース",
+                "price": 1380,
+                "description": ""
+            },
+            "bucket": {
+                "name": "バケット(6枚)",
+                "price": 200,
+                "description": ""
+            },
+            "seasonalpaella": {
+                "name": "季節限定のパエリア",
+                "price": 2400,
+                "description": "2名様分(￥2400)、3名様分(￥3600)、4名様分(￥4800)、5名様分(￥5800)になります。"
+            },
+            "iberianporkham_25": {
+                "name": "イベリコ豚の生ハム(25g)",
+                "price": 1200,
+                "description": "約2名様"
+            },
+            "iberianporkham_50": {
+                "name": "イベリコ豚の生ハム(50g)",
+                "price": 2400,
+                "description": "約4名様"
+            }
+        }
     }
 }
