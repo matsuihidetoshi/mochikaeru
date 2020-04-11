@@ -761,5 +761,272 @@
                 "description": "約4名様"
             }
         }
+    },
+    "caribbeanbar": {
+        "name": "Caribbean bar OKUIZUMI",
+        "short_name": "Caribbean bar OKUIZUMI",
+        "key": "caribbeanbar",
+        "description": "",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町326-3",
+        "other_address": "",
+        "tel": "080-5294-7455",
+        "email": "resistance1205@gmail.com",
+        "reception_hours": "15:00～24:00",
+        "delivery_hours": "18:00～25:00",
+        "close": "無し",
+        "payments":"現金、クレジットカード",
+        "url": "https://caribbeanbarokuizumi.com/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.8873606212874!2d137.72902581523243!3d34.70802088043269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adfe118b543a1%3A0x6251f4c1a6ce8fb7!2sCaribbean%20Bar%20OKUIZUMI!5e0!3m2!1sja!2sjp!4v1586584863897!5m2!1sja!2sjp",
+        "items": {
+            "tacorice": {
+                "name": "タコライス",
+                "price": 1100,
+                "description": "",
+                "image_path": "tacorice.jpg"
+            },
+            "raisinbutter": {
+                "name": "レーズンバター",
+                "price": 900,
+                "description": "",
+                "image_path": "raisinbutter.jpg"
+            }
+        },
+        "side_items": {
+            "taco": {
+                "name": "自家製タコス3ピース",
+                "price": 1000,
+                "description": ""
+            }
+        }
+    },
+    "al_solito_posto": {
+        "name": "アル・ソリート・ポスト",
+        "short_name": "アル・ソリート・ポスト",
+        "key": "al_solito_posto",
+        "description": "",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町322-13",
+        "other_address": "",
+        "tel": "053-424-5153",
+        "email": "alsolitoposto.h@gmail.com",
+        "reception_hours": "15:00～17:00 前日までに予約をお願いします。",
+        "delivery_hours": "15:00～19:00",
+        "close": "月曜日",
+        "payments":"現金、クレジットカード(5000円以上)",
+        "url": "https://alsolitoposto-h.owst.jp/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.945553937007!2d137.72849541523243!3d34.70655318043299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601adf9fb0c86f7f%3A0xc32725d1da44419!2z44Ki44Or44O744K944Oq44O844OI44Od44K544OI!5e0!3m2!1sja!2sjp!4v1586587155987!5m2!1sja!2sjp",
+        "side_items": {
+            "pickles": {
+                "name": "ピクルス",
+                "price": 500,
+                "description": "かぶや人参のトマト風味のピクルス",
+                "image_path": ""
+            },
+            "carrotlape": {
+                "name": "人参ラペ",
+                "price": 600,
+                "description": "",
+                "image_path": ""
+            },
+            "mantecart": {
+                "name": "マンテカート(ブルスケッタ付)",
+                "price": 800,
+                "description": "魚介と香草のパテ",
+                "image_path": ""
+            },
+            "cheeseplatter": {
+                "name": "チーズ盛合せ",
+                "price": 900,
+                "description": "ヨーロッパ産のこだわりチーズを4種類",
+                "image_path": ""
+            },
+            "bolognesesauce": {
+                "name": "ボロネーゼソース(粉チーズ付)",
+                "price": 1100,
+                "description": "いわゆるミートソースです。パスタは、つきません",
+                "image_path": ""
+            },
+            "pomodorosauce": {
+                "name": "ポモドーロソース",
+                "price": 900,
+                "description": "シンプルなトマトソース　パスタはつきません",
+                "image_path": ""
+            },
+            "japanesebeef": {
+                "name": "黒毛和牛ほほ肉の煮込み",
+                "price": 2300,
+                "description": "",
+                "image_path": ""
+            },
+            "countrystylestew": {
+                "name": "肉三種の田舎風煮込み",
+                "price": 2000,
+                "description": "羊、猪、鶏などその日のおすすめ肉を三種類つかってトマトで煮込んであります",
+                "image_path": ""
+            }
+
+        }
+    },
+    "oceanbistro": {
+        "name": "OCEAN BISTRO とぅくとぅく",
+        "short_name": "OCEAN BISTRO",
+        "key": "oceanbistro",
+        "description": "",
+        "zipcode": "430-0928",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "板屋町672",
+        "other_address": "FOOD昴ビル1F",
+        "tel": "053-454-0404",
+        "email": "gotounaoki716@gmail.com",
+        "reception_hours": "14:00～24:00",
+        "delivery_hours": "17:00～24:00",
+        "close": "無休",
+        "payments":"現金、クレジットカード、PayPay",
+        "url": "http://twukutwuku.bar/",
+        "map": "pb=!1m14!1m8!1m3!1d26238.814663930832!2d137.6937866!3d34.7089169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade70eeb1c335%3A0xba3bfa913f4f00d9!2z44Go44GF44GP44Go44GF44GP!5e0!3m2!1sja!2sjp!4v1586589441215!5m2!1sja!2sjp",
+        "notices": {
+            "0": "メニューは全て約2～3名様分の量になります。",
+            "1": "料金は、一律5500円(税込)になります。",
+            "2": "その他お好みで作る事も可能ですので、お好み、御予算をお伝え下さい。",
+            "3": "4〜5名様で8000円（税込）で盛り合わせも御用意出来ます。"
+        },
+        "side_items": {
+            "roastporkset": {
+                "name": "ローストポークセット",
+                "price": 5500,
+                "description": "浜松野菜のバーニャカウダ、遠州灘の魚介のフリット、お任せタパス3品、ローストポーク"
+            },
+            "carpaccioset": {
+                "name": "遠州灘産熟成魚のカルパッチョセット",
+                "price": 5500,
+                "description": "浜松野菜のバーニャカウダ、遠州灘の魚介のフリット、お任せタパス3品、遠州灘産熟成魚のカルパッチョ"
+            },
+            "campagneset": {
+                "name": "天竜ジビエ（猪と鹿）のパテドカンパーニュセット",
+                "price": 5500,
+                "description": "浜松野菜のバーニャカウダ、遠州灘の魚介のフリット、お任せタパス3品、天竜ジビエのパテドカンパーニュ"
+            }
+        }
+    },
+    "restaurantkelapa": {
+        "name": "レストラン Kelapa(ケラパ)",
+        "short_name": "Kelapa",
+        "key": "restaurantkelapa",
+        "description": "",
+        "zipcode": "430-0946",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "元城町216-20",
+        "other_address": "",
+        "tel": "053-596-9265",
+        "email": "kelapa@pure.ocn.ne.jp",
+        "reception_hours": "10:30～21:30",
+        "delivery_hours": "11:00～23:00",
+        "close": "水曜日",
+        "payments": "現金、クレジットカード、PayPay",
+        "url": "",
+        "map": "pb=!1m18!1m12!1m3!1d3279.8480470965324!2d137.72497881523248!3d34.70901238043232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade63a9355a35%3A0xd1cb4bf04e53b014!2z44Os44K544OI44Op44OzIEtlbGFwYSDvvIjjgrHjg6njg5HvvIkg5rWc5p2-!5e0!3m2!1sja!2sjp!4v1586590867115!5m2!1sja!2sjp",
+        "side_items": {
+
+        }
+    },
+    "gayagaya": {
+        "name": "九州おごっつぉう酒場 がやがや",
+        "short_name": "がやがや",
+        "key": "gayagaya",
+        "description": "",
+        "zipcode": "430-0933",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "鍛冶町319-20",
+        "other_address": "伴野ビル1F",
+        "tel": "053-451-5860",
+        "email": "h.terada40521@gmail.com",
+        "reception_hours": "14:00～21:00",
+        "delivery_hours": "17:00～22:00",
+        "close": "日曜日",
+        "payments":"現金、クレジットカード",
+        "url": "",
+        "map": "pb=!1m18!1m12!1m3!1d3279.9756191776332!2d137.72797751523237!3d34.70579488043324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7b7182b88f%3A0x31b367a5abd18fbe!2z44GM44KE44GM44KE!5e0!3m2!1sja!2sjp!4v1586591877297!5m2!1sja!2sjp",
+        "side_items": {
+            "motsunabeset": {
+                "name": "もつ鍋セット",
+                "price": 2500,
+                "desctiption": ""
+            }
+        }
+    },
+    "girogiro": {
+        "name": "地魚と和酒 魚魯魚魯",
+        "short_name": "魚魯魚魯",
+        "key": "girogiro",
+        "description": "",
+        "zipcode": "430-0935",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "伝馬町312-20",
+        "other_address": "",
+        "tel": "053-455-6011",
+        "email": "chillhideo@gmail.com",
+        "reception_hours": "14:00～19:00",
+        "delivery_hours": "16:00～20:00",
+        "close": "無休",
+        "payments":"現金、クレジットカード、PayPay",
+        "url": "http://girogiro.bar/",
+        "map": "pb=!1m18!1m12!1m3!1d3279.9886315433114!2d137.72658411523224!3d34.7054666804332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade7c909d9c35%3A0x912b53c79c172573!2z6a2a6a2v6a2a6a2v77yI44GO44KN44GO44KN77yJ!5e0!3m2!1sja!2sjp!4v1586592796586!5m2!1sja!2sjp",
+        "side_items": {
+            "odoburu": {
+                "name": "特選 オードブル盛り合わせ",
+                "price": 5500,
+                "description": ""
+            },
+            "shiogamayaki": {
+                "name": "舞阪天然真鯛の塩釜焼き",
+                "price": 3850,
+                "description": "中(￥3850)、大(￥5500)"
+            },
+            "boiled": {
+                "name": "舞阪天然真鯛の煮付け〜地元野菜添え〜",
+                "price": 2750,
+                "description": "中(￥2750)、大(￥4400)"
+            }
+        }
+    },
+    "monmon": {
+        "name": "浜松ホルモン酒場 もんもん",
+        "short_name": "もんもん",
+        "key": "monmon",
+        "description": "",
+        "zipcode": "430-0944",
+        "prefecture": "静岡県",
+        "city": "浜松市中区",
+        "address": "田町315-22",
+        "other_address": "ぬいやビル1F",
+        "tel": "053-457-1780",
+        "email": "takecyanman0046@gmail.com",
+        "reception_hours": "",
+        "delivery_hours": "17:00～20:00",
+        "close": "年中無休",
+        "payments":"現金、クレジットカード",
+        "url": "https://www.chilldiner.com/mon-mon.html",
+        "map": "pb=!1m18!1m12!1m3!1d3279.887713506781!2d137.7271868152324!3d34.70801198043253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601ade64a87e878d%3A0x1e825fc2a75b58dc!2z44KC44KT44KC44KTIOa1nOadvuODm-ODq-ODouODs-mFkuWgtA!5e0!3m2!1sja!2sjp!4v1586593682334!5m2!1sja!2sjp",
+        "side_items": {
+            "motunabefullset": {
+                "name": "もつ鍋フルセット",
+                "price": 2980,
+                "description": "国産牛ホルモン、野菜 県内産(キャベツ、ニラ、もやし、にんにく)、餃子の皮、特製白スープ、ちゃんぽん麺、薬味(胡麻、唐辛子、柚子胡椒)  2～3人前(2980円)、4～5人前(5980円)"
+            },
+            "moriawase": {
+                "name": "盛合せ",
+                "price": 2500,
+                "description": "最強豚ホルモン(500g)、豚レバー(500g)、豚ミックス(500g)、シマチョウ(500g)、豚カルビ(500g) 合計2.5kgで2500円です。"
+            }
+        }
     }
 }
