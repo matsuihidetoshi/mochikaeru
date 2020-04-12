@@ -69,7 +69,6 @@
                             <v-list-item>受渡可能時間:&nbsp;{{ shop.delivery_hours }}</v-list-item>
                             <v-list-item>定休日:&nbsp;{{ shop.close }}</v-list-item>
                             <v-list-item>支払い方法:&nbsp;{{ shop.payments }}</v-list-item>
-                            <v-list-item>Email:<a v-bind:href="'mailto:' + shop.email">{{ shop.email }}</a></v-list-item>
                             <v-list-item>
                                 URL:<a v-bind:href="shop.url" target="_blank">{{ shop.url }}</a>
                             </v-list-item>
